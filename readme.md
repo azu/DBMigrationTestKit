@@ -1,8 +1,8 @@
 # DBMigrationTestKit
 
-CoreData Migration testing library.
+Testing CoreData migration library
 
-- main purpose is testing migration used by `NSEntityMigrationPolicy`.
+- Main purpose is testing migration used by `NSEntityMigrationPolicy`.
 
 ## Installation
 
