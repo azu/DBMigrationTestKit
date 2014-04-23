@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C09DF9C75BC020C94935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CE44D70FF3C04C039870 /* Foundation.framework */; };
+		17B5C2B268C1C2AD02AC64D4 /* DBMigrationTestKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C548F765C6271D1C278C /* DBMigrationTestKit.xcdatamodeld */; };
+		17B5C3C07E50774FC529221A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C263437DF9717B3E3473 /* UIKit.framework */; };
+		17B5C58D99804D1F66D4BF4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C263437DF9717B3E3473 /* UIKit.framework */; };
+		17B5C5E532736804C4C4F540 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C670745C7C6C8B9C33EA /* CoreGraphics.framework */; };
+		17B5C5FEDDBE5294C2F770B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C999B749B73B0D504EE3 /* main.m */; };
+		17B5C69ACAB6187CB2873BAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1A4D44AF18546354F8B /* InfoPlist.strings */; };
+		17B5C77CC6DC21FC39BA2D57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C52AD5DFAACD498A0880 /* Images.xcassets */; };
+		17B5C88A7DE001C5D96176CC /* DBMigrationTestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CEDC9372F84F6F40FFB2 /* DBMigrationTestKitTests.m */; };
+		17B5C8CBF453402837C6F47B /* DBMigrationTestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C51034D35BF9FD16A588 /* DBMigrationTestKit.m */; };
+		17B5CA687CF0C37CAEAE8A9E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE4479F915ADAADBB574 /* DetailViewController.m */; };
+		17B5CA87952E858C62030C34 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C7927A8F23EDB3AFD8E2 /* CoreData.framework */; };
+		17B5CAB1E2BF078003EAE16D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CA49D54BF82957C277C4 /* XCTest.framework */; };
+		17B5CBD6CB27CDB763FBB96D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C61DE6BBF01BE4401093 /* InfoPlist.strings */; };
+		17B5CD92B8F9F8965CC2724D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CE44D70FF3C04C039870 /* Foundation.framework */; };
+		17B5CD9716550B8094206915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C929F50D8134D3CB4921 /* AppDelegate.m */; };
+		17B5CE06264876F3DF56284D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8BE457F0771DD5BB30C /* Main.storyboard */; };
+		17B5CEAF369ADF2EBB7D3D47 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C976FCFA22A92CC165B5 /* MasterViewController.m */; };
+		17B5CF0AAF3CDAC5FACE6975 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C7927A8F23EDB3AFD8E2 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5CF1C9A099735D425F157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C9594CD85DD7744F7284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5CEDAA7B91D6E4791D923;
+			remoteInfo = DBMigrationTestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B5C00BD8062AF480F9724E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		17B5C03EC7E92C0554658286 /* DBMigrationTestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBMigrationTestKit-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C0658D73F631F6AA9846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17B5C2480FDFF7DA36DD8768 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		17B5C263437DF9717B3E3473 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5C321C817974E92EA2BD6 /* DBMigrationTestKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBMigrationTestKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C405456772535AD89383 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5C51034D35BF9FD16A588 /* DBMigrationTestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMigrationTestKit.m; sourceTree = "<group>"; };
+		17B5C52AD5DFAACD498A0880 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17B5C53646CA451F35E4CD8A /* DBMigrationTestKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DBMigrationTestKit-Info.plist"; sourceTree = "<group>"; };
+		17B5C670745C7C6C8B9C33EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5C7927A8F23EDB3AFD8E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17B5C80C784B34903322E6FC /* DBMigrationTestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBMigrationTestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C892BC9EAB45771FA806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5C929F50D8134D3CB4921 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5C94F8B45BB67104715D6 /* DBMigrationTestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMigrationTestKit.h; sourceTree = "<group>"; };
+		17B5C976FCFA22A92CC165B5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		17B5C999B749B73B0D504EE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5CA23657FAE0395824200 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CA3FEFF73994D735B706 /* DBMigrationTestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DBMigrationTestKitTests-Info.plist"; sourceTree = "<group>"; };
+		17B5CA49D54BF82957C277C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17B5CE4479F915ADAADBB574 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		17B5CE44D70FF3C04C039870 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5CE6A875035F502450586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CEA01A8A90C2F9E7CF03 /* DBMigrationTestKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBMigrationTestKit.xcdatamodel; sourceTree = "<group>"; };
+		17B5CEDC9372F84F6F40FFB2 /* DBMigrationTestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMigrationTestKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C16BAAC2CE2358D5C202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CD92B8F9F8965CC2724D /* Foundation.framework in Frameworks */,
+				17B5C5E532736804C4C4F540 /* CoreGraphics.framework in Frameworks */,
+				17B5C58D99804D1F66D4BF4B /* UIKit.framework in Frameworks */,
+				17B5CA87952E858C62030C34 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C3D216B2A809521E9B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CAB1E2BF078003EAE16D /* XCTest.framework in Frameworks */,
+				17B5C09DF9C75BC020C94935 /* Foundation.framework in Frameworks */,
+				17B5C3C07E50774FC529221A /* UIKit.framework in Frameworks */,
+				17B5CF0AAF3CDAC5FACE6975 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C0E92EA9051667429663 /* DBMigrationTestKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C93E6D65B76F5E036B70 /* Supporting Files */,
+				17B5CEDC9372F84F6F40FFB2 /* DBMigrationTestKitTests.m */,
+			);
+			path = DBMigrationTestKitTests;
+			sourceTree = "<group>";
+		};
+		17B5C1F0881E6CFA225EE4C5 = {
+			isa = PBXGroup;
+			children = (
+				17B5C3B6716C064E4FA82AE4 /* Products */,
+				17B5CE812108243C72256FB8 /* Frameworks */,
+				17B5CFEE4AB8CAB46ADDFA1B /* DBMigrationTestKit */,
+				17B5C0E92EA9051667429663 /* DBMigrationTestKitTests */,
+				17B5C214E197535F35A3B9B6 /* Lib */,
+				17B5C405456772535AD89383 /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5C214E197535F35A3B9B6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C94F8B45BB67104715D6 /* DBMigrationTestKit.h */,
+				17B5C51034D35BF9FD16A588 /* DBMigrationTestKit.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		17B5C3B6716C064E4FA82AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C321C817974E92EA2BD6 /* DBMigrationTestKit.app */,
+				17B5C80C784B34903322E6FC /* DBMigrationTestKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5C7778EED35E96D8305A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C53646CA451F35E4CD8A /* DBMigrationTestKit-Info.plist */,
+				17B5C61DE6BBF01BE4401093 /* InfoPlist.strings */,
+				17B5C999B749B73B0D504EE3 /* main.m */,
+				17B5C03EC7E92C0554658286 /* DBMigrationTestKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C93E6D65B76F5E036B70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CA3FEFF73994D735B706 /* DBMigrationTestKitTests-Info.plist */,
+				17B5C1A4D44AF18546354F8B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5CE812108243C72256FB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CE44D70FF3C04C039870 /* Foundation.framework */,
+				17B5C670745C7C6C8B9C33EA /* CoreGraphics.framework */,
+				17B5C263437DF9717B3E3473 /* UIKit.framework */,
+				17B5C7927A8F23EDB3AFD8E2 /* CoreData.framework */,
+				17B5CA49D54BF82957C277C4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CFEE4AB8CAB46ADDFA1B /* DBMigrationTestKit */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C7778EED35E96D8305A2 /* Supporting Files */,
+				17B5C892BC9EAB45771FA806 /* AppDelegate.h */,
+				17B5C929F50D8134D3CB4921 /* AppDelegate.m */,
+				17B5C52AD5DFAACD498A0880 /* Images.xcassets */,
+				17B5C548F765C6271D1C278C /* DBMigrationTestKit.xcdatamodeld */,
+				17B5C8BE457F0771DD5BB30C /* Main.storyboard */,
+				17B5C00BD8062AF480F9724E /* MasterViewController.h */,
+				17B5C976FCFA22A92CC165B5 /* MasterViewController.m */,
+				17B5C2480FDFF7DA36DD8768 /* DetailViewController.h */,
+				17B5CE4479F915ADAADBB574 /* DetailViewController.m */,
+			);
+			path = DBMigrationTestKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5CED6D452DDDE086B4706 /* DBMigrationTestKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C2B2A2118A750DDB63CD /* Build configuration list for PBXNativeTarget "DBMigrationTestKitTests" */;
+			buildPhases = (
+				17B5CA7EC5D5CAC75D6029E9 /* Sources */,
+				17B5C3D216B2A809521E9B44 /* Frameworks */,
+				17B5CF3D53494AC8CFDC703F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5C4FBC7E6B3B016818B9B /* PBXTargetDependency */,
+			);
+			name = DBMigrationTestKitTests;
+			productName = DBMigrationTestKitTests;
+			productReference = 17B5C80C784B34903322E6FC /* DBMigrationTestKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17B5CEDAA7B91D6E4791D923 /* DBMigrationTestKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CB784DF5E50FE7386C2A /* Build configuration list for PBXNativeTarget "DBMigrationTestKit" */;
+			buildPhases = (
+				17B5C172A964ADCBF3BE3DA9 /* Sources */,
+				17B5C16BAAC2CE2358D5C202 /* Frameworks */,
+				17B5C588DC6F1067AA048CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBMigrationTestKit;
+			productName = DBMigrationTestKit;
+			productReference = 17B5C321C817974E92EA2BD6 /* DBMigrationTestKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C9594CD85DD7744F7284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5C6F2D637590ED6C3A6F7 /* Build configuration list for PBXProject "DBMigrationTestKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C1F0881E6CFA225EE4C5;
+			productRefGroup = 17B5C3B6716C064E4FA82AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5CEDAA7B91D6E4791D923 /* DBMigrationTestKit */,
+				17B5CED6D452DDDE086B4706 /* DBMigrationTestKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C588DC6F1067AA048CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CBD6CB27CDB763FBB96D /* InfoPlist.strings in Resources */,
+				17B5C77CC6DC21FC39BA2D57 /* Images.xcassets in Resources */,
+				17B5CE06264876F3DF56284D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CF3D53494AC8CFDC703F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C69ACAB6187CB2873BAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C172A964ADCBF3BE3DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C5FEDDBE5294C2F770B4 /* main.m in Sources */,
+				17B5CD9716550B8094206915 /* AppDelegate.m in Sources */,
+				17B5C2B268C1C2AD02AC64D4 /* DBMigrationTestKit.xcdatamodeld in Sources */,
+				17B5CEAF369ADF2EBB7D3D47 /* MasterViewController.m in Sources */,
+				17B5CA687CF0C37CAEAE8A9E /* DetailViewController.m in Sources */,
+				17B5C8CBF453402837C6F47B /* DBMigrationTestKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CA7EC5D5CAC75D6029E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C88A7DE001C5D96176CC /* DBMigrationTestKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5C4FBC7E6B3B016818B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5CEDAA7B91D6E4791D923 /* DBMigrationTestKit */;
+			targetProxy = 17B5CF1C9A099735D425F157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C1A4D44AF18546354F8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5CA23657FAE0395824200 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C61DE6BBF01BE4401093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5CE6A875035F502450586 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C8BE457F0771DD5BB30C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C0658D73F631F6AA9846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C3B0CC5D1F1201D10C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBMigrationTestKit/DBMigrationTestKit-Prefix.pch";
+				INFOPLIST_FILE = "DBMigrationTestKit/DBMigrationTestKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17B5C50B3360910528B15304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C520BAF0945761DC2599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBMigrationTestKit/DBMigrationTestKit-Prefix.pch";
+				INFOPLIST_FILE = "DBMigrationTestKitTests/DBMigrationTestKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17B5C5AECBC1D69B656F4E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5C85A39B7BE67D0BAEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBMigrationTestKit/DBMigrationTestKit-Prefix.pch";
+				INFOPLIST_FILE = "DBMigrationTestKit/DBMigrationTestKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5CA150ED5212F0D135075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBMigrationTestKit/DBMigrationTestKit-Prefix.pch";
+				INFOPLIST_FILE = "DBMigrationTestKitTests/DBMigrationTestKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C2B2A2118A750DDB63CD /* Build configuration list for PBXNativeTarget "DBMigrationTestKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CA150ED5212F0D135075 /* Release */,
+				17B5C520BAF0945761DC2599 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B5C6F2D637590ED6C3A6F7 /* Build configuration list for PBXProject "DBMigrationTestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C50B3360910528B15304 /* Release */,
+				17B5C5AECBC1D69B656F4E82 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5CB784DF5E50FE7386C2A /* Build configuration list for PBXNativeTarget "DBMigrationTestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C85A39B7BE67D0BAEB40 /* Release */,
+				17B5C3B0CC5D1F1201D10C20 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17B5C548F765C6271D1C278C /* DBMigrationTestKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17B5CEA01A8A90C2F9E7CF03 /* DBMigrationTestKit.xcdatamodel */,
+			);
+			currentVersion = 17B5CEA01A8A90C2F9E7CF03 /* DBMigrationTestKit.xcdatamodel */;
+			path = DBMigrationTestKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17B5C9594CD85DD7744F7284 /* Project object */;
+}
