@@ -12,6 +12,12 @@ pod 'DBMigrationTestKit'
 
 ## Usage
 
+1. Copy **SQLite** file of previous version.
+    * Put `.sqlite` , `.sqlite-shm`, `.sqlite-wal` in same directory
+2. `setUp` (automatically migration)
+3. tests
+4. `tearDown` is cleanup SQLite files.
+
 ``` objc
 @interface DBMigrationTestKitTests : XCTestCase
 
