@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
       :tag => s.version.to_s
   }
   s.source_files = "Lib/**/*.{h,m}"
+  s.prefix_header_contents = '#import <CoreData/CoreData.h>'
   s.framework    = "CoreData"
   s.requires_arc = true
 end
