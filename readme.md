@@ -30,7 +30,7 @@ pod 'DBMigrationTestKit'
 - (void)setUp {
     [super setUp];
     migrationTestKit = [[DBMigrationTestKit alloc] init];
-    [migrationTestKit setupCoreDataStackWithAutoMigratingSQLiteName:@"DBMigrationTestKit" momdName:@"DBMigrationTestKit"];
+    [migrationTestKit setupCoreDataStackWithAutoMigratingSQLiteName:@"DBMigrationTestKit.sqlite" momdName:@"DBMigrationTestKit"];
 }
 
 - (void)tearDown {
