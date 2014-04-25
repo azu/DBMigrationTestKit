@@ -12,7 +12,7 @@ pod 'DBMigrationTestKit'
 
 ## Usage
 
-1. Copy **SQLite** file of previous version.
+1. Copy **SQLite** file of previous version to your test target.
     * Put `.sqlite` , `.sqlite-shm`, `.sqlite-wal` in same directory
 2. `setUp` (automatically migration)
 3. tests
