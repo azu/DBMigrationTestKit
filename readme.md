@@ -45,6 +45,11 @@ pod 'DBMigrationTestKit'
 @end
 ```
 
+## Known Issue
+
+* Can't migrate between specific version(1.0 -> 2.0).
+   
+
 ## Contributing
 
 1. Fork it!
